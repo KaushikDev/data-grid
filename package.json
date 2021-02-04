@@ -2,7 +2,7 @@
   "name": "testapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kaushikdev.github.io/{Github-repo-name}",
+  "homepage": "http://kaushikdev.github.io/data-grid",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/data-grid": "^4.0.0-alpha.18",
