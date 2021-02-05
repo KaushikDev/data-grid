@@ -69,6 +69,13 @@ export const rows = [
     createdDate: "02/05/2021 05:49:22 PM",
     subject: "Connection Issue",
   },
+  {
+    id: 11,
+    caseNo: "1454",
+    caseStatus: "In Progress",
+    createdDate: "02/05/2021 05:49:22 PM",
+    subject: "Other Issue",
+  },
 ];
 
 export const columns = [
