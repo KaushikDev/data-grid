@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 import { rows, columns } from "./TicketsData";
 import {
@@ -27,17 +27,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function DataGridDemo() {
+const TicketsGrid = () => {
   const classes = useStyles();
   const [caseNumberFilterValue, setCaseNumberFilterValue] = useState("");
   const [caseStatusFilterValue, setCaseStatusFilterValue] = useState("");
   const [caseSubjectFilterValue, setCaseSubjectFilterValue] = useState("");
-
-  console.log(
-    `caseNumberFilterValue: ${caseNumberFilterValue}, 
-     caseStatusFilterValue : ${caseStatusFilterValue}, 
-     caseSubjectFilterValue : ${caseSubjectFilterValue}`
-  );
 
   const filterModel = {
     items: [
@@ -144,4 +138,6 @@ export default function DataGridDemo() {
       />
     </Container>
   );
-}
+};
+
+export default TicketsGrid;

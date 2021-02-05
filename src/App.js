@@ -1,10 +1,11 @@
 import "./App.css";
 import TicketsGrid from "./TicketsGrid";
+import TicketsTable from "./TicketsTable";
 
 function App() {
   return (
     <div className="App">
-      <TicketsGrid />
+      <TicketsTable />
     </div>
   );
 }
